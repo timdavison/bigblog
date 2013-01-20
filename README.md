@@ -1,4 +1,4 @@
 Bigblog
 =======
 
-Druap blog theme
+Drupal blog theme
