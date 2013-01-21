@@ -1,0 +1,26 @@
+name = Bigblog
+description = A simple responsive blog layout
+screenshot = screenshot.png
+engine = phptemplate
+base theme = detamo
+
+; Stylesheets.
+stylesheets[all][] = bigblog.css
+
+regions[page_top]       = Page top
+regions[header]         = Header
+regions[search_box]     = Search Box
+regions[highlighted]    = Highlight
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[triple_one]     = First triple
+regions[triple_two]     = Second triple
+regions[triple_three]   = Third triple
+regions[quad_one]       = First quad
+regions[quad_two]       = Second quad
+regions[quad_three]     = Third quad
+regions[quad_four]      = Fourth quad
+regions[footer]         = Footer
+regions[page_bottom]    = Page bottom

@@ -1,0 +1,101 @@
+/**
+ * @file
+ * Sub-theme styles should be added to this file.
+ *
+ * Rename this file to the name of your theme and include it in your .info
+ * file. Place it in the sub-theme directory.
+ */
+
+/* Common styles (all widths) */
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('League_Gothic-webfont.eot');
+    src: url('League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('League_Gothic-webfont.woff') format('woff'),
+         url('League_Gothic-webfont.ttf') format('truetype'),
+         url('League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  font: 60px/80px 'LeagueGothicRegular', Arial, sans-serif;letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+color: #111;
+    padding: 0.3em;
+    border-bottom-style: solid;
+    border-color: #66d600;
+    border-width: 3px;
+}
+
+.content {
+  font-size: 21px;
+}
+
+#site-menu {
+	list-style: none;
+	float: right;
+	padding-top: 0.5em;
+  color: green;
+}
+
+#site-menu li {
+	float: left;
+	min-width: 4em;
+	padding-right: 0.5 em;
+	margin-right: 0.5 em;
+	text-align: center;
+}
+
+.topnav li a {
+		text-decoration: none;
+}
+
+.topnav li a:hover {
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-color: #66d600;
+    border-width: 3px;
+}
+
+#site-slogan {
+  font-style: italic;
+  font-size: 3em;
+  text-align: center;
+}
+
+#branding {
+  padding-bottom: 0.5em;
+  border-bottom-style: solid;
+  border-color: #66d600;
+  border-width: 3px;
+  margin-bottom: 1em;
+}
+
+/* End Common styles */
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+#logo {
+	text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 54px;
+}
+
+} /* End Mobile styles */
+
+/* Tablet styles */
+@media screen and (min-width: 481px) and (max-width: 840px) {
+
+} /* End Tablet styles */
+
+/* Desktop styles */
+@media screen and (min-width: 841px) {
+
+} /* End Desktop styles */
